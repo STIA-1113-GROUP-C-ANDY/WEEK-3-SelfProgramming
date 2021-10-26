@@ -1,0 +1,17 @@
+package selfprogramming;
+
+public class IncrementandDecrementOperators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int m = 4;
+		int result = 3 * (++m);
+		 System.out.println("The result is");
+		 System.out.println(result);
+		 
+		
+		 
+		 
+	}
+
+}
