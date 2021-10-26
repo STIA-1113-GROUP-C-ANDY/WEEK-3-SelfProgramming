@@ -1,0 +1,17 @@
+package selfprogramming;
+
+public class SimpleData {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int y = 128;
+		int x = 200;
+		int z;
+		
+		z = x - y;
+		System.out.println("The value of z is");
+		System.out.println(z);
+		
+	}
+
+}
