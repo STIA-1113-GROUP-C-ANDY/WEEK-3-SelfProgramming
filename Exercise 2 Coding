@@ -1,0 +1,18 @@
+package selfprogramming;
+
+public class SampleExpressions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int v = 800;
+		int u = 200;
+		int t = 5;
+		int accelaration;
+		
+		accelaration = v - u / t;
+		System.out.println("The acceleration is");
+		System.out.println(accelaration);
+		
+		
+	}
+}
