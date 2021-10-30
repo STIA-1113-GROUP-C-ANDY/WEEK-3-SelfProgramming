@@ -1,0 +1,57 @@
+package numericalData;
+
+import java.util.Scanner;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name;
+		double cgpa;
+		char grade;
+		char gradeMathforSPM;
+		int number1;
+		int number2;
+		int number3;
+		int number4;
+		int number5;
+		int number6;
+		int sum;
+		
+		
+		
+		Scanner scanMe = new Scanner (System.in);
+		
+		System.out.println("Enter your Name:");
+		name = scanMe.nextLine();
+		
+		System.out.println("Enter your Grade");
+		grade = scanMe.next().charAt(0);
+		
+		System.out.println("Enter your cgpa");
+		cgpa = scanMe.nextDouble();
+		
+		System.out.println("Enter your grade math for SPM");
+		gradeMathforSPM = scanMe.next().charAt(0);
+		
+		System.out.println("Enter number1");
+		number1 = scanMe.nextInt();
+		
+		System.out.println("Enter number2");
+		number2 = scanMe.nextInt();
+		
+		sum = number1 + number2;
+		
+		System.out.println("The sum is");
+		System.out.println(sum);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
